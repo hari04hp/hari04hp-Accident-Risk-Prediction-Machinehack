@@ -1,0 +1,7 @@
+Reference/
+data/
+data_feather/
+data_out/
+.vscode/
+studies/*.db
+catboost_info/

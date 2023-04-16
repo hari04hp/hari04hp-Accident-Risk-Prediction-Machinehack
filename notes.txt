@@ -1,0 +1,24 @@
+train directly do
+But for test, try in two ways. 
+i] combine train and calculate values that are in main set. population and road_network can be applied directly
+ii] separate test, calculate values only with that and then score
+
+For encoder variables, build a raw model, see the feature importance and then build the target, count encoders with those variables only
+
+
+
+First join with postcodde_short and then join with postcode (It should replace the old value if empty )
+
+do special columns but parallely run for a model
+
+
+
+my_submission_6, 7, 8
+{'best_iteration': 128, 'train_rmse': 0.4754084999406848, 'val_rmse': 0.47988855969068744}
+
+9,10
+{'alpha': 0.035688937871948614, 'colsample_bytree': 0.5578828917109813, 'eta': 0.1883793073253146, 'gamma': 0.4049115972788908, 'lambda': 0.5022115278674546, 'max_depth': 4, 'min_child_weight': 122, 'subsample': 0.8953059917041677}
+{'best_iteration': 29, 'train_rmse': 0.47349669912478604, 'val_rmse': 0.47966740837463867}
+
+0.6407
+0.6427
